@@ -1,0 +1,34 @@
+import { Button } from "native-base";
+import React from "react";
+import { View, Text, TextInput, StyleSheet, Pressable } from "react-native";
+import { CustomButton } from "../CustomButton/CustomButton";
+
+
+
+const SocialSignInButton = ({onPress,text,type ="PRIMARY", bgColor, fgColor}) => {
+  
+    const onGooglePressed = () => {
+        console.warn('Google');
+    }
+    
+    const onFacebookPressed = () => {
+        console.warn('Facebook');
+    }
+    
+    const onApplePressed = () => {
+        console.warn('Apple');
+    }
+    const onSignUpPressed = () => {
+        console.warn('Sign Up');
+    }
+    return(
+    <>
+             <CustomButton text="Sign Up with Google" onPress={onGooglePressed} bgColor="#FAE9EA"fgColor="#DD4D44"/>
+            <CustomButton text="Sign Up with Apple" onPress={onApplePressed} bgColor="#e3e3e3"fgColor="#363636"/>
+            <CustomButton text="Sign Up with Facebook" onPress={onFacebookPressed} bgColor="#E7EAF4"fgColor="#4765A9" />
+    </>
+  )
+};
+
+
+export {SocialSignInButton}

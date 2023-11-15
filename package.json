@@ -1,0 +1,19 @@
+{
+  "name": "se4450-project-group-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiz-SE/se4450-project-group-8.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luiz-SE/se4450-project-group-8/issues"
+  },
+  "homepage": "https://github.com/Luiz-SE/se4450-project-group-8#readme"
+}
